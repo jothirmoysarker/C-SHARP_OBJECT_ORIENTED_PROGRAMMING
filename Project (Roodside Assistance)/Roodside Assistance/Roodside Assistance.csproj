@@ -1,0 +1,450 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{041863EB-FC4C-45F1-94AD-FE8723D0CFD6}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Roodside_Assistance</RootNamespace>
+    <AssemblyName>Roodside Assistance</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Banani.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Banani.Designer.cs">
+      <DependentUpon>Banani.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Biqbal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Biqbal.Designer.cs">
+      <DependentUpon>Biqbal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bnaspro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bnaspro.Designer.cs">
+      <DependentUpon>Bnaspro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bnova.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bnova.Designer.cs">
+      <DependentUpon>Bnova.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Brepublic.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Brepublic.Designer.cs">
+      <DependentUpon>Brepublic.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Danandas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Danandas.Designer.cs">
+      <DependentUpon>Danandas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dcarcare.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dcarcare.Designer.cs">
+      <DependentUpon>Dcarcare.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dhanmondi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dhanmondi.Designer.cs">
+      <DependentUpon>Dhanmondi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dnavana.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dnavana.Designer.cs">
+      <DependentUpon>Dnavana.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dnur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dnur.Designer.cs">
+      <DependentUpon>Dnur.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Driver.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Driver.Designer.cs">
+      <DependentUpon>Driver.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Drocky.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Drocky.Designer.cs">
+      <DependentUpon>Drocky.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Employee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Employee.Designer.cs">
+      <DependentUpon>Employee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Garage1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Garage1.Designer.cs">
+      <DependentUpon>Garage1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Khilkhet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Khilkhet.Designer.cs">
+      <DependentUpon>Khilkhet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kkarim.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kkarim.Designer.cs">
+      <DependentUpon>Kkarim.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kmayer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kmayer.Designer.cs">
+      <DependentUpon>Kmayer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kvehicle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kvehicle.Designer.cs">
+      <DependentUpon>Kvehicle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Madiba.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Madiba.Designer.cs">
+      <DependentUpon>Madiba.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mbismillah.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mbismillah.Designer.cs">
+      <DependentUpon>Mbismillah.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mirpur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mirpur.Designer.cs">
+      <DependentUpon>Mirpur.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mjuwel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mjuwel.Designer.cs">
+      <DependentUpon>Mjuwel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mssauto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mssauto.Designer.cs">
+      <DependentUpon>Mssauto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mvai.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mvai.Designer.cs">
+      <DependentUpon>Mvai.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Nearest Garage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nearest Garage.Designer.cs">
+      <DependentUpon>Nearest Garage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NeedOil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NeedOil.Designer.cs">
+      <DependentUpon>NeedOil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NeedTowTruck.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NeedTowTruck.Designer.cs">
+      <DependentUpon>NeedTowTruck.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Salim_Auto_car_solution.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Salim_Auto_car_solution.Designer.cs">
+      <DependentUpon>Salim_Auto_car_solution.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SelectOption.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SelectOption.Designer.cs">
+      <DependentUpon>SelectOption.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Track_Order.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Track_Order.Designer.cs">
+      <DependentUpon>Track_Order.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Track_Torder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Track_Torder.Designer.cs">
+      <DependentUpon>Track_Torder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Umukter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Umukter.Designer.cs">
+      <DependentUpon>Umukter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Unewato.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Unewato.Designer.cs">
+      <DependentUpon>Unewato.cs</DependentUpon>
+    </Compile>
+    <Compile Include="USato.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="USato.Designer.cs">
+      <DependentUpon>USato.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User_Account.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User_Account.Designer.cs">
+      <DependentUpon>User_Account.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Uspeedauto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Uspeedauto.Designer.cs">
+      <DependentUpon>Uspeedauto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Uttora.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Uttora.Designer.cs">
+      <DependentUpon>Uttora.cs</DependentUpon>
+    </Compile>
+    <Compile Include="U_AG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="U_AG.Designer.cs">
+      <DependentUpon>U_AG.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Banani.resx">
+      <DependentUpon>Banani.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Biqbal.resx">
+      <DependentUpon>Biqbal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bnaspro.resx">
+      <DependentUpon>Bnaspro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bnova.resx">
+      <DependentUpon>Bnova.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Brepublic.resx">
+      <DependentUpon>Brepublic.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Danandas.resx">
+      <DependentUpon>Danandas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dcarcare.resx">
+      <DependentUpon>Dcarcare.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dhanmondi.resx">
+      <DependentUpon>Dhanmondi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dnavana.resx">
+      <DependentUpon>Dnavana.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dnur.resx">
+      <DependentUpon>Dnur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Driver.resx">
+      <DependentUpon>Driver.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Drocky.resx">
+      <DependentUpon>Drocky.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Employee.resx">
+      <DependentUpon>Employee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Garage1.resx">
+      <DependentUpon>Garage1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Khilkhet.resx">
+      <DependentUpon>Khilkhet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kkarim.resx">
+      <DependentUpon>Kkarim.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kmayer.resx">
+      <DependentUpon>Kmayer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kvehicle.resx">
+      <DependentUpon>Kvehicle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Madiba.resx">
+      <DependentUpon>Madiba.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mbismillah.resx">
+      <DependentUpon>Mbismillah.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mirpur.resx">
+      <DependentUpon>Mirpur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mjuwel.resx">
+      <DependentUpon>Mjuwel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mssauto.resx">
+      <DependentUpon>Mssauto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mvai.resx">
+      <DependentUpon>Mvai.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nearest Garage.resx">
+      <DependentUpon>Nearest Garage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NeedOil.resx">
+      <DependentUpon>NeedOil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NeedTowTruck.resx">
+      <DependentUpon>NeedTowTruck.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Salim_Auto_car_solution.resx">
+      <DependentUpon>Salim_Auto_car_solution.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SelectOption.resx">
+      <DependentUpon>SelectOption.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Track_Order.resx">
+      <DependentUpon>Track_Order.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Track_Torder.resx">
+      <DependentUpon>Track_Torder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Umukter.resx">
+      <DependentUpon>Umukter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Unewato.resx">
+      <DependentUpon>Unewato.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="USato.resx">
+      <DependentUpon>USato.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User_Account.resx">
+      <DependentUpon>User_Account.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Uspeedauto.resx">
+      <DependentUpon>Uspeedauto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Uttora.resx">
+      <DependentUpon>Uttora.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="U_AG.resx">
+      <DependentUpon>U_AG.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\473240.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
